@@ -10,7 +10,7 @@ public class Refactorable {
 		double outstanding = 0.0;
 		int count = 0;
 		
-		// print banner
+
 		printBanner();
 		
 		// calculate outstanding
@@ -20,16 +20,17 @@ public class Refactorable {
 			count += 1;
 		}
 		
-		// print details
 		printDeatils(outstanding, count);
 	}
 
+		// print details
 	void printDeatils(double outstanding, int count) {
 		System.out.println("name: " + _name);
 		System.out.println("amount: " + outstanding);
 		System.out.println("name: " + count);
 	}
-
+	
+		// print banner
 	void printBanner() {
 		System.out.println("*************************");
 		System.out.println("***** Customer Owes *****");
